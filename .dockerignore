@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.git
+.gitignore
+vendor/
+static_analysis_semgrep_1/
+docs/
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.mypy_cache

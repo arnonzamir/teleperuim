@@ -1,0 +1,10 @@
+.env
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+vendor/
+static_analysis_semgrep_1/
+*.egg-info/
+dist/
+build/

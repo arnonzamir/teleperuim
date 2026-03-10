@@ -1,0 +1,19 @@
+# Application
+fastapi==0.115.*
+uvicorn[standard]==0.34.*
+pydantic==2.*
+pydantic-settings>=2.0
+
+# Instagram - Unofficial Backend
+instagrapi==2.*
+
+# Instagram - Official Backend / HTTP client
+httpx==0.28.*
+
+# Infrastructure
+aiosqlite>=0.20.0
+python-multipart
+pillow
+
+# Observability
+structlog>=24.0
