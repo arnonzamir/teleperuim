@@ -1,6 +1,6 @@
 services:
   instagram-api:
-    build: .
+    image: ghcr.io/arnonzamir/teleperuim:latest
     container_name: instagram-api
     restart: unless-stopped
     environment:

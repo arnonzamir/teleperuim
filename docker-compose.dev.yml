@@ -1,0 +1,14 @@
+services:
+  instagram-api:
+    build: .
+    container_name: instagram-api
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    volumes:
+      - instagram_data:/data
+
+volumes:
+  instagram_data:
